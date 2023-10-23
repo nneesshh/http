@@ -33,15 +33,15 @@ exclude = [
 ]
 
 [dependencies]
-bytes = "1"
+bytes = { path = "../bytes" }
 fnv = "1"
 itoa = "1"
 
 [dev-dependencies]
 indexmap = "1"
 quickcheck = "0.9"
-rand = "0.7"
+rand = { path = "../rand" }
 seahash = "3"
 serde = "1"
-serde_json = "1"
+serde_json = { path = "../json" }
 doc-comment = "0.3"
