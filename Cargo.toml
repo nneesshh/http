@@ -33,7 +33,7 @@ exclude = [
 ]
 
 [dependencies]
-bytes = { path = "../bytes" }
+bytes = "1"
 fnv = "1"
 itoa = "1"
 
